@@ -11,17 +11,17 @@ function calcMassa () {
 
     // Condicionais
     if (calculandoIMC <= 18.4) {
-      calculoFinal.innerHTML = ` Seu IMC é de ${calculandoIMC.toFixed(2)}, você está abaixo do peso.`;
+      calculoFinal.innerHTML = ` <p>Seu IMC é de ${calculandoIMC.toFixed(2)}, você está abaixo do peso.</p>`;
     } else if (calculandoIMC > 18.4 && calculandoIMC <= 24.9)  {
-      calculoFinal.innerHTML = `Seu IMC é de ${calculandoIMC.toFixed(2)}, seu peso está normal.`;
+      calculoFinal.innerHTML = `<p>Seu IMC é de ${calculandoIMC.toFixed(2)}, seu peso está normal.</p>`;
     } else if (calculandoIMC > 24.9 && calculandoIMC <= 29.9 ) {
-      calculoFinal.innerHTML = `Seu IMC é de ${calculandoIMC.toFixed(2)}, você está com sobrepeso.`;
+      calculoFinal.innerHTML = `<p>Seu IMC é de ${calculandoIMC.toFixed(2)}, você está com sobrepeso.</p>`;
     } else if (calculandoIMC > 29.9 && calculandoIMC <= 34.9) {
-      calculoFinal.innerHTML = `Seu IMC é de ${calculandoIMC.toFixed(2)}, você está com obesidade de grau 1.`;
+      calculoFinal.innerHTML = `<p>Seu IMC é de ${calculandoIMC.toFixed(2)}, você está com obesidade de grau 1.</p>`;
     } else if (calculandoIMC > 34.9 && calculandoIMC <= 39.9) {
-      calculoFinal.innerHTML = `Seu IMC é de ${calculandoIMC.toFixed(2)}, você está com obesidade de grau 2.`
+      calculoFinal.innerHTML = `<p>Seu IMC é de ${calculandoIMC.toFixed(2)}, você está com obesidade de grau 2.</p>`
     } else {
-      calculoFinal.innerHTML = `Seu IMC é de ${calculandoIMC.toFixed(2)}, você está com obesidade de grau 3.`
+      calculoFinal.innerHTML = `<p>Seu IMC é de ${calculandoIMC.toFixed(2)}, você está com obesidade de grau 3.</p>`
     }
     
   }
